@@ -100,7 +100,7 @@ Internal clock divider (DIVIDE_BY = 4) generates I2C-compliant clocking.
 Simulation runs with #delay statements and continuous clock toggling.
 
 ## 👤 Author
-Name: Mamkar Regonda
-GitHub: mamkaregonda
-Linkedin: mamkar-regonda
-Location: Hyderabad
+- Name: Mamkar Regonda
+- GitHub: mamkaregonda
+- Linkedin: mamkar-regonda
+- Location: Hyderabad
