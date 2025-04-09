@@ -75,30 +75,31 @@ vvp main
 
 # Open waveform in GTKWave
 gtkwave my_design.vcd
+```
 
-🧪 Testbench Scenarios
+## 🧪 Testbench Scenarios
 The i2c_controller_tb module validates both write and read operations between the master and slave.
 
-✅ Write Operation
+## ✅ Write Operation
 Master sends the slave address 0x2A with write bit (rw = 0)
 
 Data 0xFF is transmitted to the slave.
 
 Slave acknowledges and stores the received data.
 
-✅ Read Operation
+## ✅ Read Operation
 Master sends the slave address 0x2A with read bit (rw = 1)
 
 Slave echoes back the data (0xFF) previously written.
 
 Master reads and stores the received byte.
 
-⏱️ Timing Summary
+## ⏱️ Timing Summary
 Internal clock divider (DIVIDE_BY = 4) generates I2C-compliant clocking.
 
 Simulation runs with #delay statements and continuous clock toggling.
 
-👤 Author
+## 👤 Author
 Name: Mamkar Regonda
 GitHub: mamkaregonda
 Linkedin: mamkar-regonda
